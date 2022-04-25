@@ -11,4 +11,10 @@ given domain. After the subdomains have been gathered they get put through the
 [dig](https://linux.die.net/man/1/dig) command so that the ip addresses can be gathered. After this
 has happened the FQDNs and the IP addresses get put side to side in a csv and a txt file.
 
+### 2) Nmapscript.sh
+
+This script uses [nmap](https://github.com/nmap/nmap) to lookup the open ports of the subdomains we
+just found.
+
+### 3) PortIPorganizingscript.sh
 
