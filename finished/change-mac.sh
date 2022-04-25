@@ -160,6 +160,8 @@ while getopts ":hr" opt; do
                     echo ""
                     #------------------------
                     ip a | grep -A 3 $2
+                    #------------------------
+                    rm -f /home/$USER/original-mac-address.txt
                     exit 0
                     ;;
         #---------------------------
@@ -202,6 +204,8 @@ while getopts ":hr" opt; do
                     echo ""
                     #------------------------
                     ip a | grep -A 3 $2
+                    #------------------------
+                    rm -f /home/$USER/original-mac-address.txt
                     exit 0
                     ;;
         #---------------------------
