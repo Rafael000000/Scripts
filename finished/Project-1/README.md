@@ -4,6 +4,23 @@ I created this project when I was an intern at Erasmus MC.
 
 This project contains three main scripts. MainScript.sh, Nmapscript.sh, PortIPorganizingscript.sh.
 
+### 0) Required packages
+
+Debian & Ubuntu:
+* dnsutils (Because of dig command)
+* Nmap
+* [sublist3r](https://github.com/aboul3la/Sublist3r)
+
+RHEL, Alma & CentOS:
+* bind-utils (Because of dig command)
+* Nmap
+* [sublist3r](https://github.com/aboul3la/Sublist3r)
+
+Archlinux & Archlinux-based:
+* bind-tools (Because of dig command)
+* Nmap
+* [sublist3r](https://github.com/aboul3la/Sublist3r)
+
 ### 1) MainScript.sh
 
 This script uses [sublist3r](https://github.com/aboul3la/Sublist3r) to gather the subdomains of a
