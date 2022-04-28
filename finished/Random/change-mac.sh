@@ -5,13 +5,13 @@
 
 
 
-if [ $# -eq 1 ]
-  then
-    echo "
-    Please see '-h'
-    "
-    exit 1
-fi
+#if [ $# -eq 1 ]
+#  then
+#    echo "
+#    Please see '-h'
+#    "
+#    exit 1
+#fi
 
 
 #---------------------------------------------
