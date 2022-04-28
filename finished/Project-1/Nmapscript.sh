@@ -25,9 +25,12 @@ echo -e "\e[0;91m Everything from this script will be located in $Dir/raw_out/nm
     awk '{print $1}' $fqdnip >$Dir/raw_out/nmap/FQDNlist.txt
 
 #-----------------------------------------------------------------------
+echo -e "\e[0;91m Running nmap command \e[0m"
+echo -e "\e[0;91m This may take a while \e[0m"
+
 # If you want to scan ALL the ports uncomment this:   
     #nmap -Pn -p- -iL $FQDNList -oG $Dir/raw_out/nmap/ScannedList.txt
-    
+
     nmap -Pn -iL $FQDNList -oG $Dir/raw_out/nmap/ScannedList.txt
 #-----------------------------------------------------------------------
     
@@ -40,6 +43,6 @@ echo -e "\e[0;91mfinished Nmapscript\e[0m"
 
 read -t1
 
-echo -e "\e[0;91mNow starting PortIPorganizingscript\e[0m"
+echo -e "\e[0;91mNow starting PortOrganizerscript\e[0m"
 
-sh PortIPorganizingscript.sh $Dir
+sh PortOrganizerscript.sh $Dir

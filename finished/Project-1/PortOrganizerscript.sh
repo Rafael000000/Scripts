@@ -9,7 +9,7 @@ NmapList=$Dir/raw_out/PortOrganizer/ListForPortScript.txt
 
 read -t1
 
-echo -e "\e[0;91mNow starting PortIPorganizingscript\e[0m"
+echo -e "\e[0;91mNow starting PortOrganizerscript\e[0m"
 #-----------------------------------------------------------------------
 echo ""
 echo ""

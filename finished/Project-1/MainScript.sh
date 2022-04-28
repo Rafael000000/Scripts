@@ -76,7 +76,8 @@ while getopts ":hr" opt; do
         echo -e "\e[1;32m Processes happeninge now: \e[0m"
         echo -e "\e[1;32m dig + awk command to get ip, \e[0m"
         echo -e "\e[1;32m saving output in $Dir/final_out/Main/ with form (fqdn,ip) and (fqdn ip) \e[0m"
-        
+        echo -e "\e[1;32m This may take a while \e[0m"
+
         echo""
         echo""
             read -t0.5
