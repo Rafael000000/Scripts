@@ -2,7 +2,7 @@
 
 I created this project when I was an intern at Erasmus MC.
 
-This project contains three main scripts. MainScript.sh, Nmapscript.sh, PortIPorganizingscript.sh.
+This project contains three main scripts. MainScript.sh, Nmapscript.sh, PortOrganizerscript.sh.
 
 ### 0) Required packages
 
