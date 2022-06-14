@@ -33,8 +33,8 @@ while getopts ":hr" opt; do
         ./MainScript.sh -r (Domain name) (Work directory or new work path + directory)
 
        String:
-        ./MainScript -r example.com workdir
-        ./MainScript -r example.com /new/path/workdir
+        ./MainScript.sh -r example.com workdir
+        ./MainScript.sh -r example.com /new/path/workdir
         "
       ;;
     r)
@@ -117,7 +117,7 @@ while getopts ":hr" opt; do
     \?) echo "
          Invalid argument $1
 
-         See ./change-mac.sh -h for more info"
+         See ./MainScript.sh -h for more info"
       ;;
   esac
 done
