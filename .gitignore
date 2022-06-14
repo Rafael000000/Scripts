@@ -1,3 +1,20 @@
-test-port-script/
-test/
-finished/Project-1/ekoplaza/
+# Ignore everything:
+*
+
+# Except for:
+!README.md
+!finished/
+!finished/Jingpad
+!finished/Jingpad/uninstall-android-support.sh
+!finished/Random
+!finished/Random/change-mac.sh
+#!finished/Project-1
+!finished/Project-1/MainScript.sh
+!finished/Project-1/Nmapscript.sh
+!finished/Project-1/PortOrganizerscript.sh
+!finished/Project-1/README.md
+!unfinished/
+!unfinished/Project-2
+!unfinished/Project-2/Mainscript.sh
+!unfinished/Project-2/Testsslscript.sh
+!unfinished/Project-2/Standalone_testssl_script.sh
