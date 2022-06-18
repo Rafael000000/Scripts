@@ -19,6 +19,7 @@ echo -e "\e[0;91m This may take a while \e[0m"
 
     cat $FQDNList | while read list
     do
+        echo "Now scanning $list"
         testssl $list > $Dir/final_out/$list.txt
     done
 
