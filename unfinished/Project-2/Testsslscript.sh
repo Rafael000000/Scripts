@@ -1,8 +1,6 @@
 #!/bin/bash
 
-#Dir=$1
-
-Dir=Test
+Dir=$1
 
 FQDNList=$Dir/raw_out/FQDNlist.txt
 
